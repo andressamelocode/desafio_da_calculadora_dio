@@ -53,6 +53,15 @@ switch (monstro) {
 
 }
 
+lutaFinal()
+
+function lutaFinal(diamante= "cristal mágico", arma = "espada", inimigo = "monstro gigante", recompensa = "dono"){
+    console.log("O herói encontra o " + diamante + " para passar pela bruxa")
+    console.log("Usa a  " + arma)
+    console.log("Destroi o " + inimigo)
+    console.log("Se torna " + recompensa + " de Escandinávia")
+}
+
 let estrelas = 0;
 
 for(let i = 0; i <= 11; i++){
@@ -61,3 +70,4 @@ for(let i = 0; i <= 11; i++){
 }
 
 console.log("Você tem " + estrelas + " vidas totais")
+
