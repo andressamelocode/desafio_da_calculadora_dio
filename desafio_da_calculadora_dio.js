@@ -24,3 +24,40 @@ if(saldo <= 10){
 }else{ (saldo >= 101)
     console.log("O herói de nome " + nome + " tem saldo " + saldo + " e está no nível de imortal")
 }
+
+let monstro = prompt("Quantos dos 5 monstros você derrotou? ")
+
+switch (monstro) {
+  case "5":
+  console.log("Você ganhou 50 estrelas")
+  break
+
+  case "4":
+  console.log("Você ganhou 40 estrelas")
+  break 
+
+  case "3":
+  console.log("Você ganhou 30 estrelas")
+  break 
+
+  case "2": 
+  console.log("Você ganhou 20 estrelas")
+  break 
+
+  case "1": 
+  console.log("Você ganhou 10 estrelas")
+  break
+
+  default:
+  console.log("Você não ganhou estrelas")
+
+}
+
+let estrelas = 0;
+
+for(let i = 0; i <= 11; i++){
+    estrelas += 1
+    console.log("Você pegou " + i + " estrelas")
+}
+
+console.log("Você tem " + estrelas + " vidas totais")
